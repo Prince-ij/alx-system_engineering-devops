@@ -1,0 +1,2 @@
+#!/bin/bash
+chmod rx-rx-r hello
