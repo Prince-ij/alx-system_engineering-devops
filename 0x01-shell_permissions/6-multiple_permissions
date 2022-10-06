@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod rx-rx-r hello
+chmod -rwxr-xr--
