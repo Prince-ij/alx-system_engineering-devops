@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# show only listening port
+# and pid processess
+netstat -l --program
