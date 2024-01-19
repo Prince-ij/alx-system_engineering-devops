@@ -1,6 +1,7 @@
-# Install flask 2.1.0
+# 1-install_a_package.pp
 
-exec { 'flask':
-  command => 'sudo apt-get install -y python3-flask=2.1.0',
-  path    => '/usr/bin:/bin'
+# Install flask package with version 2.1.0
+package { 'Flask':
+  ensure   => '2.1.0',
+  provider => 'pip3',
 }
