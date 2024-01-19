@@ -1,8 +1,6 @@
-# kills a process named killmenow
-# use exec resource
-# command pkill -f killmenow, path /usr/bin:/bin, refreshonly true
+# kill process killmenow
 
-exec {'killmenow':
+exec { 'pkill':
   command  => 'pkill -f killmenow',
-  provider => 'shell'
+  provider => 'shell',
 }
