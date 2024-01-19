@@ -3,7 +3,6 @@
 # command pkill -f killmenow, path /usr/bin:/bin, refreshonly true
 
 exec {'killmenow':
-  command     => 'pkill -f killmenow',
-  path        => '/usr/bin:/bin',
-  refreshonly => true,
+  command  => 'pkill -f killmenow',
+  provider => 'shell'
 }
