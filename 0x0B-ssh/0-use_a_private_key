@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# connects to a server 
 
 ssh -i ~/.ssh/school ubuntu@100.27.2.238
