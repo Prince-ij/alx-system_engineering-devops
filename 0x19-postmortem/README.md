@@ -1,0 +1,1 @@
+I love System Engineering Devops. This is a post mortem examole I wrote on a fictional problem. The goal is to demonstrate my understanding of how postmortem are being written. How to write blameless incidence report.
