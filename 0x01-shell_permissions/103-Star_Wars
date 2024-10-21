@@ -1,0 +1,2 @@
+#!/bin/bash
+mpv --no-config --vo=tct https://youtu.be/MftSEu4vgg0?si=xgtvxDrqrzhVHG8k
