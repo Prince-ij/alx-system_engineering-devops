@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | nl -v 1 | sort | awk 'NR % 2 == 1' | cut -f 2 
+paste -d, - - | cut -d, -f1 
